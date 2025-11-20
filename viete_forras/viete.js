@@ -3,7 +3,7 @@ document.getElementById("button1").onclick = () =>{
     var b = document.getElementById("inputb").value;
     var c = document.getElementById("inputc").value;
 
-    var D = Math.sqrt(b*b-4*a*c);
+    var D = b*b-4*a*c;
     var eredmeny = "";
     
     if (D < 0){
